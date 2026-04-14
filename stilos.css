@@ -19,7 +19,7 @@ header nav{
     top:0;
     width: 100%;
     background-color: rgb(221, 196, 143);
-    padding: 30px;
+    padding: 15px;
     z-index: 1000; /* asegurar q este por encima de otros*/
     position: fixed; /* fijar el menu en la pantalla*/
 }
@@ -133,17 +133,83 @@ header nav ul li a:hover{
     border: 1px solid;
 }
 .btn-whatsapp{
-    border-color: aquamarine;
-    color: antiquewhite;
+    border-color: rgb(0, 161, 108);
+    color: rgb(183, 250, 180);
+}
+.btn-linkedin{
+    border-color: #00a6ff;
+    color: #72ceff;
+}
+.btn-cv{
+    border-color: rgb(255, 138, 55);
+    color: rgb(255, 151, 77);
+}
+.hero-nombre{
+    background: linear-gradient(135deg,#8a804d, #d8c098, #b6a580, #8d7e5c);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    transition: 0.3s ease;
+
+}
+.hero-nombre:hover{
+        transform: scale(1.1);
+        transition: 0.3s ease;
 }
 
+/* ---------------------------------------------------------------------------------------*/
+.sobre{
+    text-align: center;
+}
+.sobre p{
+    max-width: 800px;
+    line-height: 1.8;
+    margin: 0 auto 15px ;
 
+}
+.sobre h2{
+    color: #8d7e5c;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+/* ---------------------------------------------------------------------------------------*/
+.tecno{
+    background: #000000;
+}
 
+.tecno h2{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.tecno-card{
+    padding: 25px;
+    border-radius: 10px;
+    background:  rgb(255, 255, 255, 0.09);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+.card-titulo{
+    color: aqua;
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
 
-
-
-
-
-
-
+}
+.card-descripcion{
+    color: white;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tecno-tecnologias{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
 
