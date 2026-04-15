@@ -32,8 +32,8 @@
           <li><a href="#inicio">Inicio</a></li>
           <li><a href="#sobre">Sobre mi</a></li>
           <li><a href="#tecno">Tecnologias</a></li>
-          <li><a href="#Proyectos">Proyectos</a></li>
-          <li><a href="#Contactos">Contactos</a></li>
+          <li><a href="#proyectos">Proyectos</a></li>
+          <li><a href="#contacto">Contactos</a></li>
         </ul>
       </nav>
     </header>
@@ -133,33 +133,69 @@
         </div>
       </section>
 
-      <section id="proyectos">
+      <section id="proyectos" class="proyectos">
         <h2>Mis Proyectos</h2>
-        <div>
-            <article>
-                <h3>Sistema de registro de actividades</h3>
-                <p>Sistema de gestion de actividades</p>
+        <div class="lista-proyectos">
+            <article class="proyecto-card">
+                <h3 class="proyecto-titulo">Sistema de registro de actividades</h3>
+                <p class="proyecto-descripcion">Sistema de gestion de actividades</p>
                 <p>
-                    <strong>Tecnologias: </strong> Java
+                    <strong class="proyecto-tecnologias">Tecnologias: </strong> Java
                 </p>
             </article>
-            <article>
-                <h3> Sistema de Citas Medicas </h3>
-                <p> Sistema de administracion de clientes y citas medicas. </p>
+            <article class="proyecto-card">
+                <h3 class="proyecto-titulo"> Sistema de Citas Medicas </h3>
+                <p class="proyecto-descripcion"> Sistema de administracion de clientes y citas medicas. </p>
                 <p>
-                    <strong>Tecnologias: </strong> Java
+                    <strong class="proyecto-tecnologias">Tecnologias: </strong> Java
                 </p>
             </article>
-            <article>
-                <h3>Portafolio Personal</h3>
-                <p> Pagina web personal informativa - portafolio web</p>
+            <article class="proyecto-card">
+                <h3 class="proyecto-titulo">Portafolio Personal</h3>
+                <p class="proyecto-descripcion"> Pagina web personal informativa - portafolio web</p>
                 <p>
-                    <strong>Tecnologias: </strong> HTML, CSS y JavaScript.
+                    <strong class="proyecto-tecnologias">Tecnologias: </strong> HTML, CSS y JavaScript.
                 </p>
             </article>
         </div>
 
       </section>
+
+      <section id="contacto" class="contacto">
+        <h2>Contacto</h2>
+        <form action="">
+          <input type="text" placeholder="Ingresa tu nombre" required>
+          <input type="text" placeholder="Ingresa tu correo" required>
+          <textarea  rows="4" placeholder="Ingresa tu mensaje" required></textarea>
+          <button type="submit"> Enviar</button>
+        </form>
+      </section>
     </main>
+    <footer class="footer">
+      <h2>
+        Informacion de contacto
+      </h2>
+      <section class="contacto-info">
+        <h3>Datos de Contacto</h3>
+        <address>
+          <p> Email: jadepacompia@gmail.com </p>
+          <p> Celular: +51912230341</p>
+          <p> Ubicacion: Puno</p>
+        </address>
+      </section>
+      <section class="contacto-social">
+        <h3>Redes Sociales</h3>
+        <nav>
+          <ul>
+            <li><a href="" target="_blank">Facebook</a></li>
+            <li><a href="https://github.com/jadepacompia-bot" target="_blank">Github</a></li>
+            <li><a href="https://wa.me/51912230341" target="_blank">Whatsapp</a></li>
+          </ul>
+        </nav>
+      </section>
+
+      <p class=" copyright"> &copy; 2026 Jade Pacompia. Todos los derechos reservados </p>
+    </footer>
   </body>
 </html>
+<script src="script.js"></script>
